@@ -1,0 +1,16 @@
+Source: ruby-dimensions
+Section: ruby
+Priority: optional
+Maintainer: Faidon Liambotis <faidon@wikimedia.org>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.3.0~)
+Standards-Version: 3.9.3
+Homepage: https://github.com/sstephenson/dimensions
+XS-Ruby-Versions: all
+
+Package: ruby-dimensions
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+Description: Pure Ruby dimension measurement for GIF, PNG, JPEG and TIFF images
+ A pure Ruby library for measuring the dimensions and rotation angles of GIF,
+ PNG, JPEG and TIFF images.

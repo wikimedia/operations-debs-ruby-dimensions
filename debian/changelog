@@ -1,0 +1,5 @@
+ruby-dimensions (1.2.0-1~wmf1) precise-wikimedia; urgency=low
+
+  * Initial release.
+
+ -- Faidon Liambotis <faidon@wikimedia.org>  Tue, 19 Mar 2013 03:11:51 +0200
